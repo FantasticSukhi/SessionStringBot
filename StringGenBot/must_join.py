@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://te.legra.ph/file/e685702e02bf7a76e8a81.jpg", caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [🄶🄾🅁🄸🄻🄻🄰]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [🄶🄾🅁🄸🄻🄻🄰]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
+                    photo="https://te.legra.ph/file/e685702e02bf7a76e8a81.jpg", caption=f"» ǟƈƈօʀɖɨռɢ ȶօ ʍʏ ɖǟȶǟɮǟֆɛ, ʏօʊ ɦǟʋɛ ռօȶ ʝօɨռɛɖ [🄶🄾🅁🄸🄻🄻🄰]({link}) ʏɛȶ, ɨʄ ʏօʊ աǟռȶ ȶօ ʊֆɛ ʍɛ ȶɦɛռ ƈʟɨƈӄ օռ ʝօɨռ ɮʊȶȶօռ [🄶🄾🅁🄸🄻🄻🄰]({link}) ǟռɖ ǟʄȶɛʀ ʝօɨռ, ȶɦɛռ ʏօʊ ֆȶǟʀȶ ʍɛ ǟɢǟɨռ !",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -33,4 +33,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"Promote me as an admin in the MUST_JOIN chat : {MUST_JOIN} !")
+        print(f"𝔓𝔯𝔬𝔪𝔬𝔱𝔢 𝔪𝔢 𝔞𝔰 𝔞 𝔞𝔡𝔪𝔦𝔫 𝔦𝔫 𝔱𝔥𝔢 MUST_JOIN 𝔠𝔥𝔞𝔱 : {MUST_JOIN} !")
