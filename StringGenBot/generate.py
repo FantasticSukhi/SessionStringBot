@@ -25,21 +25,21 @@ import config
 
 
 
-ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
+ask_ques = "**𝔓𝔩𝔢𝔞𝔰𝔢 𝔠𝔥𝔬𝔬𝔰𝔢 𝔱𝔥𝔢 𝔩𝔦𝔟𝔯𝔞𝔯𝔶 𝔴𝔥𝔦𝔠𝔥 𝔦𝔰 𝔤𝔦𝔳𝔢𝔫 𝔟𝔢𝔩𝔬𝔴 𝔞𝔫𝔡 𝔤𝔢𝔫𝔢𝔯𝔞𝔱𝔢 𝔶𝔬𝔲𝔯 𝔫𝔢𝔴 𝔖𝔢𝔰𝔰𝔦𝔬𝔫 :**"
 buttons_ques = [
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
+        InlineKeyboardButton("𝔓𝔶𝔯𝔬𝔤𝔯𝔞𝔪", callback_data="pyrogram"),
+        InlineKeyboardButton("𝔗𝔢𝔩𝔢𝔱𝔥𝔬𝔫", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("𝔓𝔶𝔯𝔬𝔤𝔯𝔞𝔪 𝔅𝔬𝔱", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("𝔗𝔢𝔩𝔢𝔱𝔥𝔬𝔫 𝔅𝔬𝔱", callback_data="telethon_bot"),
     ],
 ]
 
 gen_button = [
     [
-        InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+        InlineKeyboardButton(text=" 💥𝕲𝖊𝖓𝖊𝖗𝖆𝖙𝖊 𝕾𝖊𝖘𝖘𝖎𝖔𝖓💥", callback_data="generate")
     ]
 ]
 
