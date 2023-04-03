@@ -41,7 +41,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 )
 async def executor(client, message):
     if len(message.command) < 2:
-        return await edit_or_reply(message, text="**ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴇxᴇᴄᴜᴛᴇ ʙᴀʙʏ ?**")
+        return await edit_or_reply(message, text="**𝘉𝘳𝘶𝘩 𝘬𝘺𝘢 𝘦𝘹𝘦𝘤𝘶𝘵𝘦 𝘬𝘢𝘳𝘯𝘢 𝘤𝘩𝘢𝘩𝘵𝘦 𝘩𝘰 ?**")
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
     except IndexError:
@@ -122,7 +122,7 @@ async def forceclose_command(_, CallbackQuery):
     if CallbackQuery.from_user.id != int(user_id):
         try:
             return await CallbackQuery.answer(
-                "» ɪᴛ'ʟʟ ʙᴇ ʙᴇᴛᴛᴇʀ ɪғ ʏᴏᴜ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs ʙᴀʙʏ.", show_alert=True
+                "» ℑ𝔱 𝔦𝔰 𝔟𝔢𝔱𝔱𝔢𝔯 𝔣𝔬𝔯 𝔶𝔬𝔲 𝔦𝔣 𝔶𝔬𝔲 𝔰𝔱𝔞𝔶 𝔦𝔫 𝔶𝔬𝔲𝔯 𝔩𝔦𝔪𝔦𝔱𝔰.", show_alert=True
             )
         except:
             return
