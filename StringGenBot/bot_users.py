@@ -13,4 +13,4 @@ async def users_sql(_, msg: Message):
 @Client.on_message(filters.user(OWNER_ID) & filters.command("stats"))
 async def _stats(_, msg: Message):
     users = len(await get_served_users())
-    await msg.reply_text(f"» ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ sᴛʀɪɴɢ ɢᴇɴ ʙᴏᴛ :\n\n {users} ᴜsᴇʀs", quote=True)
+    await msg.reply_text(f"» ℭ𝔲𝔯𝔯𝔢𝔫𝔱 𝔰𝔱𝔞𝔱𝔲𝔰 𝔬𝔣 𝔖𝔱𝔯𝔦𝔫𝔤 𝔖𝔢𝔰𝔰𝔦𝔬𝔫 𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔬𝔯 𝔅𝔬𝔱 𝔦𝔰 :\n\n {users} 𝔲𝔰𝔢𝔯𝔰", quote=True)
