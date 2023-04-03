@@ -1,7 +1,7 @@
 {
   "name": "sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+  "logo": "https://te.legra.ph/file/e685702e02bf7a76e8a81.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/AnonymousX1025/StringGenBot",
+  "repository": "https://github.com/FantasticSukhi/SessionStringBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -21,17 +21,17 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "2634874"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "a418fd5c4497ca9986f31c314da6f170"
     },
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
       "required": true,
-      "value": ""
+      "value": "6090419276"
     },
     "MONGO_DB_URI": {
       "description": "Get this value from cloud.mongodb.com",
@@ -41,12 +41,12 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "DevilsHeavenMF"
+      "value": "GORILLA_NETWORK"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
       "required": true,
-      "value": ""
+      "value": "5941964820:AAG-k4toL21O2t8_ZsfukBll36-bphjXm20"
     }
   }
 }
