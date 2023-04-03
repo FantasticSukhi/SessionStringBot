@@ -21,15 +21,15 @@ app = Client(
 
 
 if __name__ == "__main__":
-    print("Starting the String Generator Bot...")
+    print("𝔄𝔟𝔢 𝔟𝔬𝔱 𝔨𝔬 𝔰𝔱𝔞𝔯𝔱 𝔨𝔞𝔯 𝔯𝔥𝔞 𝔥𝔲...")
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
-        raise Exception("Your API_ID/API_HASH is not valid.")
+        raise Exception("𝔗𝔢𝔯𝔦 API_ID/API_HASH 𝔖𝔞𝔥𝔦 𝔫𝔞𝔥𝔦 𝔥𝔞𝔦.")
     except AccessTokenInvalid:
-        raise Exception("Your BOT_TOKEN is not valid.")
+        raise Exception("𝔗𝔢𝔯𝔦 BOT_TOKEN 𝔖𝔞𝔥𝔦 𝔫𝔞𝔥𝔦 𝔥𝔞𝔦.")
     uname = app.get_me().username
-    print(f"@{uname} started successfully !")
+    print(f"@{uname} 𝔖𝔱𝔞𝔯𝔱 𝔰𝔲𝔠𝔠𝔢𝔰𝔰𝔣𝔲𝔩𝔩𝔶 !")
     idle()
     app.stop()
-    print("Bot stopped. Bye !")
+    print("𝔅𝔬𝔱 𝔖𝔱𝔬𝔭𝔭𝔢𝔡.......... !")
