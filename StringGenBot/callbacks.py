@@ -18,7 +18,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 await callback_query.answer()
                 await generate_session(bot, callback_query.message)
             elif query == "pyrogram_bot":
-                await callback_query.answer("» ᴛʜᴇ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇᴅ ᴡɪʟʟ ʙᴇ ᴏғ ᴩʏʀᴏɢʀᴀᴍ ᴠ2.", show_alert=True)
+                await callback_query.answer("» тнє ѕєѕѕιση gєηєяαтσя ωιℓℓ вє σƒ ρуяσgяαм ν2.", show_alert=True)
                 await generate_session(bot, callback_query.message, is_bot=True)
             elif query == "telethon_bot":
                 await callback_query.answer()
@@ -32,7 +32,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
 
 
-ERROR_MESSAGE = "ᴡᴛғ ! sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. \n\n**ᴇʀʀᴏʀ** : {} " \
-            "\n\n**ᴩʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ @GORILLA_BOTS**, ɪғ ᴛʜɪs ᴍᴇssᴀɢᴇ " \
-            "ᴅᴏᴇsɴ'ᴛ ᴄᴏɴᴛᴀɪɴ ᴀɴʏ sᴇɴsɪᴛɪᴠᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ " \
-            "ʙᴇᴄᴀᴜsᴇ ᴛʜɪs ᴇʀʀᴏʀ ɪs **ɴᴏᴛ ʟᴏɢɢᴇᴅ ʙʏ ᴛʜᴇ ʙᴏᴛ** !"
+ERROR_MESSAGE = "𝚆𝚑𝚊𝚝𝚜 𝚝𝚑𝚎 𝚑𝚎𝚕𝚕 !!!! 𝚂𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚠𝚎𝚗𝚝 𝚠𝚛𝚘𝚗𝚐. \𝚗\𝚗**𝙴𝚛𝚛𝚘𝚛**:{} "\
+                "\𝚗\𝚗**𝙿𝚕𝚎𝚊𝚜𝚎 𝚏𝚘𝚛𝚠𝚊𝚛𝚍 𝚝𝚑𝚒𝚜 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 𝚝𝚘 @𝙶𝙾𝚁𝙸𝙻𝙻𝙰_𝙱𝙾𝚃𝚂**, 𝙸𝚏 𝚝𝚑𝚒𝚜 𝚖𝚎𝚜𝚜𝚊𝚐𝚎 "\
+                "𝚍𝚘𝚎𝚜𝚗'𝚝 𝚌𝚘𝚗𝚝𝚊𝚒𝚗 𝚊𝚗𝚢 𝚜𝚎𝚗𝚜𝚒𝚒𝚟𝚎 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 "\
+                "𝚋𝚎𝚌𝚊𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚎𝚛𝚛𝚘𝚛 𝚒𝚜 𝚕𝚘𝚐𝚐𝚎𝚍 𝚋𝚢 𝚝𝚑𝚎 𝚋𝚘𝚝** !!!!"
