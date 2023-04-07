@@ -2,7 +2,7 @@
   <a href="https://github.com/FantasticSukhi"><img alt="Website" src="https://img.shields.io/badge/BLACKMAMBA-blue"></a>
  
 [![Stars](https://img.shields.io/github/stars/FantasticSukhi/SessionStringBot?style=social)](https://github.com/FantasticSukhi/SessionStringBot/stargazers)
-  [![Forks](https://img.shields.io/github/forks/FantasticSukhi/SessionStringBot?style=social)](https://github.com/FantasticSukhi/SessionStringBot/fork)
+[![Forks](https://img.shields.io/github/forks/FantasticSukhi/SessionStringBot?style=social)](https://github.com/FantasticSukhi/SessionStringBot/fork)
 
 ### 🛠️ ʟᴀɴɢᴜᴀɢᴇs ᴀɴᴅ ᴛᴏᴏʟs
 
