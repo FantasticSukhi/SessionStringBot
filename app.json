@@ -36,7 +36,7 @@
     "MONGO_DB_URI": {
       "description": "Get this value from cloud.mongodb.com",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://MAMBA:<BLACKMAMBA>@blackmamba.o9knlev.mongodb.net/?retryWrites=true&w=majority"
     },
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
@@ -46,7 +46,7 @@
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
       "required": true,
-      "value": "5941964820:AAG-k4toL21O2t8_ZsfukBll36-bphjXm20"
+      "value": "6008287772:AAGF6VZK_Ei5xFieZ4N9Pbpbh7hYd5AwWvl"
     }
   }
 }
